@@ -1,0 +1,142 @@
+body{
+    font-family: "Merriweather", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: #111414;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    color:#ffffff;
+}
+#hero{
+    padding-top: 100px;
+    position: relative;
+}
+#hero h1{
+    font-size: 5rem;
+    font-family: "Sacramento", cursive;
+}
+#hero h2{
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    padding-bottom: 100px;
+}
+#hero span{
+    text-decoration: underline;
+}
+.top-cloud, .bottom-cloud{
+    position: absolute;
+    height: 100px;
+}
+.top-cloud{
+    top: 60px;
+    right: 260px;
+}
+.bottom-cloud{
+    bottom: 250px;
+    left: 270px;
+}
+.mountain-img{
+    height: 260px;
+}
+#about .hello-img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+.intro{
+    width: 32%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.intro h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+hr{
+    border: dotted #111414 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.skills{
+    width: 60%;
+    margin: auto;
+}
+.skills h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.skills h3{
+    font-family: "Montserrat", sans-serif;
+}
+.skill1{
+    margin-bottom: 5rem;
+}
+.skill1 img{
+    float: left;
+    margin-right: 16px;
+}
+.skill1 .skill-container{
+    text-align: left;
+}
+.skill2 .skill-container{
+    text-align: right;
+}
+.skill2 img{
+    float: right;
+    margin-left: 16px;
+}
+.skill-container img{
+    height: 180px;
+}
+#cta{
+    margin-bottom: 10rem;
+}
+#cta h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+#cta h3{
+    font-family: "Montserrat", sans-serif;
+}
+#cta p{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+#cta a{
+    background: #2b3435;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(57, 56, 56);
+    padding: 50px 0 20px;
+}
+footer a{
+   
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+footer p{
+    color: #ffffff;
+    margin-top: 50px;
+}
